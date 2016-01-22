@@ -135,3 +135,15 @@ header .login {
 
 
 /*------- Credit card ---------*/
+
+.black {
+  background-color: #4C535C;
+  color:white;
+  text-align: center;
+  line-height: 100px;
+}
+.black p{
+  font-size: 23px;
+}
+
+/*------- Les carrées de couleurs ---------*/

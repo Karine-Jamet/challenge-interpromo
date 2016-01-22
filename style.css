@@ -74,7 +74,7 @@ header .login {
 .bottom-pics {
   text-align: center;
 }
-.bottom-pics h3{
+.bottom-pics h3 {
   font-size: 25px;
   margin: 10px;
 }
@@ -101,14 +101,13 @@ header .login {
   padding-top: 50px;
   color: rgba(0, 0, 0, 0.6);
 }
-
 .prix p {
   font-size: 20px;
 }
-.styling{
+.styling {
   background-color: white;
-  position:relative;
-  top:0px;
+  position: relative;
+  top: 0px;
   left: 0;
   width: 100%;
   padding: 20px;
@@ -117,11 +116,11 @@ header .login {
 }
 .styling .dollar {
   font-size: 55px;
-  color:#8080BE;
+  color: #8080BE;
   vertical-align: top;
   margin: auto;
 }
-.styling .perInvoice{
+.styling .perInvoice {
   font-size: 30px;
   vertical-align: top;
   margin: auto;
@@ -132,23 +131,21 @@ header .login {
   margin-left: -23px;
 }
 
-
-
 /*------- Credit card ---------*/
 
 .black {
   background-color: #4C535C;
-  color:white;
+  color: white;
   text-align: center;
   line-height: 100px;
 }
-.black p{
+.black p {
   font-size: 23px;
 }
 
 /*------- Les carrées de couleurs ---------*/
 
-.carre div{
+.carre div {
   display: inline-block;
   width: 49%;
   height: 300px;
@@ -157,11 +154,9 @@ header .login {
   margin: auto;
   color: rgba(0, 0, 0, 0.6);
 }
-
 .carre div p {
   margin-left: 25%;
   margin-right: 25%;
-
 }
 .carre div h3 {
   font-size: 25px;
@@ -169,16 +164,13 @@ header .login {
   margin-bottom: 20px;
   margin-left: 25%;
   margin-right: 25%;
-
 }
-
-.carre .premier-carre{
+.carre .premier-carre {
   background-color: #7CD5EF;
   padding-top: 50px;
   text-align: center;
 }
-
-.premier-carre .image{
+.premier-carre .image {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-image: url("images/welcome-invoices-graphic-1.png");
@@ -187,14 +179,12 @@ header .login {
   height: 300px;
   width: 480px;
 }
-
-.carre .quatrieme-carre{
+.carre .quatrieme-carre {
   background-color: #8080BE;
   padding-top: 50px;
   text-align: center;
 }
-
-.quatrieme-carre .image{
+.quatrieme-carre .image {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-image: url("images/welcome-invoices-graphic-2.png");
@@ -203,14 +193,12 @@ header .login {
   height: 300px;
   width: 480px;
 }
-
-.carre .cinquieme-carre{
+.carre .cinquieme-carre {
   background-color: #7CD5EF;
   padding-top: 50px;
   text-align: center;
 }
-
-.cinquieme-carre .image{
+.cinquieme-carre .image {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-image: url("images/welcome-invoices-graphic-3.png");
@@ -220,27 +208,22 @@ header .login {
   width: 480px;
 }
 
-
 /*------- La section ready  ---------*/
 
 .ready {
   padding-top: 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   text-align: center;
-  color:  rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
-
 .ready p {
   font-size: 20px;
   margin: 10px;
 }
-
 .ready span {
   font-weight: bold;
 }
-
-
-.ready input{
+.ready input {
   margin: 20px;
   color: white;
   padding: 10px;
@@ -249,4 +232,46 @@ header .login {
   background-color: #00AC84;
   border: none;
   border-radius: 5px;
+}
+
+/*------- Footer  ---------*/
+
+footer {
+  background-color: #242629;
+  padding: 50px;
+  text-align: center;
+}
+footer div {
+  text-align: left;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+footer div h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+footer div p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+footer .bas {
+  margin-top: 35px;
+  padding-left: 230px;
+  padding-right: 220px;
+}
+footer .bas p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+footer img {
+  float: right;
+
+}
+
+footer i {
+  padding-right: 10px;
+
 }

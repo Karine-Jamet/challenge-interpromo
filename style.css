@@ -147,3 +147,75 @@ header .login {
 }
 
 /*------- Les carrées de couleurs ---------*/
+
+.carre div{
+  display: inline-block;
+  width: 49%;
+  height: 300px;
+  text-align: left;
+  vertical-align: middle;
+  margin: auto;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.carre div p {
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+.carre div h3 {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+
+.carre .premier-carre{
+  background-color: #7CD5EF;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.premier-carre .image{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url("images/welcome-invoices-graphic-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 480px;
+}
+
+.carre .quatrieme-carre{
+  background-color: #8080BE;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.quatrieme-carre .image{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url("images/welcome-invoices-graphic-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 480px;
+}
+
+.carre .cinquieme-carre{
+  background-color: #7CD5EF;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.cinquieme-carre .image{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url("images/welcome-invoices-graphic-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 480px;
+}

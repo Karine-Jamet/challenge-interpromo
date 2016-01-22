@@ -4,20 +4,19 @@ html, body {
   margin: 0;
   font-family: sans-serif;
 }
-
 header {
   background-color: none;
   position: absolute;
   top: 0;
   left: 0;
-  height:50px;
+  height: 50px;
   width: 100%;
-    z-index: 10;
+  z-index: 10;
 }
-header div{
+header div {
   display: inline-block;
 }
-header img{
+header img {
   height: 50px;
   width: auto;
   display: inline-block;
@@ -26,7 +25,6 @@ header img{
   margin-left: 20px;
   margin-right: 20px;
 }
-
 header a, header h2 {
   color: white;
   display: inline;
@@ -44,28 +42,96 @@ header .login {
   padding: 20px;
 }
 
-.acceuil{
+/*------- page d'acceuil ---------*/
+
+.acceuil {
   margin-top: -250px;
 }
 .top-purple {
   background-image: url("images/payments-banner-graphic.png");
   background-size: cover;
-  height:750px;
+  height: 750px;
   width: 100%;
   z-index: 0;
   text-align: center;
   color: white;
   margin: auto;
 }
-.top-purple h1{
+.top-purple h1 {
   padding-top: 450px;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
-
-.top-purple input{
+.top-purple input {
   background-color: white;
-  color:#7777B3;
+  color: #7777B3;
   border-radius: 3px;
   border: none;
   line-height: 30px;
   width: 250px;
+  margin-top: 20px;
 }
+.bottom-pics {
+  text-align: center;
+}
+.bottom-pics h3{
+  font-size: 25px;
+  margin: 10px;
+}
+.bottom-pics div {
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.quick, .beautiful {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/*------- Pricing ---------*/
+
+.prix {
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 50px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.prix p {
+  font-size: 20px;
+}
+.styling{
+  background-color: white;
+  position:relative;
+  top:0px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.styling .dollar {
+  font-size: 55px;
+  color:#8080BE;
+  vertical-align: top;
+  margin: auto;
+}
+.styling .perInvoice{
+  font-size: 30px;
+  vertical-align: top;
+  margin: auto;
+}
+.styling .fee {
+  font-size: 14px;
+  margin-top: -20px;
+  margin-left: -23px;
+}
+
+
+
+/*------- Credit card ---------*/

@@ -219,3 +219,34 @@ header .login {
   height: 300px;
   width: 480px;
 }
+
+
+/*------- La section ready  ---------*/
+
+.ready {
+  padding-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color:  rgba(0, 0, 0, 0.6);
+}
+
+.ready p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.ready span {
+  font-weight: bold;
+}
+
+
+.ready input{
+  margin: 20px;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #00AC84;
+  border: none;
+  border-radius: 5px;
+}

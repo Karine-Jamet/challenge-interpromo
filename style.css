@@ -44,13 +44,13 @@ header .login {
   padding: 20px;
 }
 
+.acceuil{
+  margin-top: -250px;
+}
 .top-purple {
   background-image: url("images/payments-banner-graphic.png");
   background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height:500px;
+  height:750px;
   width: 100%;
   z-index: 0;
   text-align: center;
@@ -58,7 +58,7 @@ header .login {
   margin: auto;
 }
 .top-purple h1{
-  margin-top: 250px;
+  padding-top: 450px;
 }
 
 .top-purple input{

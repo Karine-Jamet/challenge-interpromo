@@ -4,6 +4,9 @@ html, body {
   margin: 0;
   font-family: sans-serif;
 }
+
+/*------- Header ---------*/
+
 header {
   padding-top: 10px;
   background-color: none;
@@ -33,8 +36,13 @@ header a, header h2 {
   margin: auto;
   text-decoration: none;
 }
+header h2 {
+  letter-spacing: 3px;
+}
+
 header a {
   margin: 20px;
+  font-size: 12px;
 }
 header .login {
   position: absolute;
@@ -49,7 +57,7 @@ header .login {
   margin-top: -250px;
 }
 .top-purple {
-  background-image: url("images/payments-banner-graphic.png");
+  background-image: url("../images/payments-banner-graphic.png");
   background-size: cover;
   height: 750px;
   width: 100%;
@@ -174,7 +182,7 @@ header .login {
 .premier-carre .image {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-image: url("images/welcome-invoices-graphic-1.png");
+  background-image: url("../images/welcome-invoices-graphic-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -188,7 +196,7 @@ header .login {
 .quatrieme-carre .image {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-image: url("images/welcome-invoices-graphic-2.png");
+  background-image: url("../images/welcome-invoices-graphic-2.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -202,7 +210,7 @@ header .login {
 .cinquieme-carre .image {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-image: url("images/welcome-invoices-graphic-3.png");
+  background-image: url("../images/welcome-invoices-graphic-3.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
@@ -216,6 +224,7 @@ header .login {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 40px;
 }
 .ready p {
   font-size: 20px;
